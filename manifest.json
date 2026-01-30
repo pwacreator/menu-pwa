@@ -1,6 +1,6 @@
 {
-  "name": "Menü App",
-  "short_name": "Menü",
+  "name": "Mensa2Go",
+  "short_name": "Mensa2Go",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -13,3 +13,4 @@
     }
   ]
 }
+
