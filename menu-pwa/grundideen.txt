@@ -1,0 +1,100 @@
+Grundidee: Menüideen / Rezepte zum Mitnehmen
+
+App Name Ideen: „Lunch to Go“, „Schnelle Mahlzeit“, „Takeaway Ideen“, „Meal on the Fly“
+
+Ziel: Nutzer finden schnell Rezepte, die man vorbereiten oder mitnehmen kann
+
+2️⃣ Features & Funktionen
+🍴 Menüübersicht
+
+Grid / Liste von Rezeptkarten
+
+Mini-Bild + Name + Dauer / Schwierigkeit
+
+Filter: z. B. „vegan“, „low carb“, „schnell <30min“
+
+🔍 Suche
+
+Nach Zutat oder Kategorie
+
+Sofortige Filterung der Karten
+
+⭐ Favoriten
+
+Nutzer können Rezepte merken → lokal gespeichert via localStorage
+
+Später wieder abrufen
+
+📦 Lunchbox / To-Go
+
+Möglichkeit, ein Rezept zu „Lunchbox“ hinzuzufügen
+
+Zeigt alles, was man für den Tag braucht
+
+🖼️ Bilder
+
+Jede Karte mit attraktivem Foto
+
+Optional Schritt-für-Schritt-Bilder
+
+🌙 Dark Mode
+
+Für unterwegs in der Mittagspause
+
+Einfach per CSS Media Query machbar
+
+3️⃣ Erweiterte Ideen (falls du kreativ wirst)
+
+Kalenderfunktion: Zeigt für die Woche Vorschläge
+
+Zutatenliste exportieren: Zum Einkaufen oder mitnehmen
+
+Randomizer: „Überrasch mich!“ → wählt ein zufälliges Rezept
+
+Saison-Filter: z. B. nur schnelle Rezepte mit saisonalem Gemüse
+
+4️⃣ Layout-Ideen
+
+Grid: Alle Rezepte als Karten → scrollen
+
+Kategorien oben: z. B. Tabs „Vegan“, „Vegetarisch“, „Schnell“
+
+Detailseite: Klick auf Karte → Zutaten + Zubereitung + Bild
+
+Offline-Bereich: Lieblingsrezepte offline verfügbar
+
+5️⃣ Beispielhafte Menü-Kategorien
+
+Schnell & Einfach: <15 Minuten
+
+Bento / Lunchbox: Für unterwegs
+
+Vegetarisch / Vegan
+
+Proteinhaltig: Für Sportler
+
+Süßes / Snacks
+
+6️⃣ Mini-Feature-Tipps für PWA
+
+Lazy Loading Bilder: Schnellere Ladezeiten
+
+Service Worker: Offline verfügbar
+
+Favoriten mit localStorage speichern: Kein Login nötig
+
+Dark Mode: CSS prefers-color-scheme: dark
+
+Wenn du willst, kann ich dir ein Mini-PWA-Grundgerüst für „Menüideen zum Mitnehmen“ bauen, inkl.:
+
+Grid mit Rezeptkarten
+
+Kategorien + Filter
+
+Favoriten lokal speicherbar
+
+Vollbild / App-Feeling auf iPhone
+
+Dann hättest du direkt eine funktionierende Version, die du hosten und testen kannst.
+
+Willst du, dass ich das erstelle?
