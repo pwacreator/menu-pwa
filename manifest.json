@@ -1,7 +1,7 @@
 {
   "name": "Mensa2Go",
   "short_name": "Mensa2Go",
-  "start_url": "index.html",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
