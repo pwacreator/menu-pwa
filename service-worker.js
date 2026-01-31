@@ -1,4 +1,4 @@
-const CACHE_NAME = "menu-cache-v1";
+const CACHE_NAME = "menu-cache-v4";
 const FILES_TO_CACHE = [
   "index.html",
   "style.css",

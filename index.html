@@ -1,35 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mein Menü</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mein Menü</title>
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <img src="assets/images/Element 2.png" alt="" />
+    </header>
 
-</head>
-<body>
+    <main>
+      <section id="home" class="page active">
+        <div class="menu">
+          <div class="item">
+            <img src="assets/images/pizza.jpg" alt="Pizza" />
+            <h2>Pizza</h2>
+          </div>
 
-  <h1>🍽️ Unser Menü</h1>
+          <div class="item">
+            <img src="assets/images/burger.jpg" alt="Burger" />
+            <h2>Burger</h2>
+          </div>
 
-  <div class="menu">
-    <div class="item">
-      <img src="assets/images/pizza.jpg" alt="Pizza">
-      <h2>Pizza</h2>
-    </div>
+          <div class="item">
+            <img src="assets/images/pasta.jpg" alt="Pasta" />
+            <h2>Pasta</h2>
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="page">Menü Inhalt</section>
+      <section id="profil" class="page">Profil Inhalt</section>
+      <section id="settings" class="page">Einstellungen Inhalt</section>
+    </main>
+    <nav class="bottom-bar">
+      <button class="tab active" data-page="home">
+        <span class="icon">🏠</span>
+        <span class="label">Home</span>
+      </button>
 
-    <div class="item">
-      <img src="assets/images/burger.jpg" alt="Burger">
-      <h2>Burger</h2>
-    </div>
+      <button class="tab" data-page="menu">
+        <span class="icon">🍕</span>
+        <span class="label">Menü</span>
+      </button>
 
-    <div class="item">
-      <img src="assets/images/pasta.jpg" alt="Pasta">
-      <h2>Pasta</h2>
-    </div>
-  </div>
+      <button class="tab" data-page="profil">
+        <span class="icon">👤</span>
+        <span class="label">Profil</span>
+      </button>
 
-  <script src="script.js"></script>
-</body>
+      <button class="tab" data-page="settings">
+        <span class="icon">👤</span>
+        <span class="label">Einstellungen</span>
+      </button>
+
+      <div class="indicator"></div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
 </html>
