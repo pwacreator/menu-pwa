@@ -1,4 +1,4 @@
-const CACHE_NAME = "menu-cache-v5";
+const CACHE_NAME = "menu-cache-v6";
 const FILES_TO_CACHE = [
   "index.html",
   "style.css",
@@ -20,3 +20,4 @@ self.addEventListener("fetch", event => {
     caches.match(event.request).then(response => response || fetch(event.request))
   );
 });
+
